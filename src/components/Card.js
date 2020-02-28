@@ -3,10 +3,9 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink } from 'rea
 
 const ProjectCard = props => {
       return (
-          <div> 
             <Card style={{ width: '16rem' }}>
                 <CardBody>
-                <CardTitle>Card Title</CardTitle>
+               <CardTitle>{props.cardTitle}</CardTitle>
                 <CardSubtitle className="mb-2 text-muted">Card Subtitle</CardSubtitle>
                 <CardText>
                     Some quick example text to build on the card title and make up the bulk of
@@ -16,7 +15,6 @@ const ProjectCard = props => {
                 <CardLink href="#">Another Link</CardLink>
                 </CardBody>
             </Card>
-          </div>
         
      );
   }
