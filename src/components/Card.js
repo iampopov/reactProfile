@@ -3,16 +3,15 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink } from 'rea
 
 const ProjectCard = props => {
       return (
-            <Card style={{ width: '16rem' }}>
+            <Card className="ml-1 mb-1" style={{ width: '16rem' }}>
                 <CardBody>
                <CardTitle>{props.cardTitle}</CardTitle>
-                <CardSubtitle className="mb-2 text-muted">Card Subtitle</CardSubtitle>
+                
                 <CardText>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    {props.description}
                 </CardText>
-                <CardLink href="#">Card Link</CardLink>
-                <CardLink href="#">Another Link</CardLink>
+                <CardLink href={props.gitHubLink}>GitHub Link</CardLink>
+                <CardLink href={props.homepage}>Deployed Project</CardLink>
                 </CardBody>
             </Card>
         
