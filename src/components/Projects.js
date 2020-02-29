@@ -33,7 +33,7 @@ const Projects = props => {
           description = {item.description} />
         ))} 
         </Row>
-      ) : (<h3>No projects</h3>)}
+      ) : (<h3>Please wait while GitHub API renders results!</h3>)}
 
       
     </Jumbotron>

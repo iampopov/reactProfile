@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import {
-  Button, Container, Col, Form,
+  Button, Form,
   FormGroup, Label, Input,
 } from 'reactstrap';
 
@@ -65,7 +65,7 @@ function MyForm() {
 
   return (
     <div>
-      <h1>Contact Us</h1>
+      <h1>Contact Me</h1>
       <Form onSubmit={handleOnSubmit}>
       <FormGroup>
         <Label htmlFor="email">Email:</Label>
@@ -77,7 +77,6 @@ function MyForm() {
       </FormGroup>
        <FormGroup> 
         <Label htmlFor="message">Message:</Label>
-        {/* <textarea id="message" name="message"></textarea> */}
         <Input type="textarea" name="message" id="message"
         onChange = {validateForm} 
         valid={ validate.messageState === 'has-success' }
