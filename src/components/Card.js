@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
-import { CardWrapper } from "../styles"
+
 
 const ProjectCard = props => {
       return (
