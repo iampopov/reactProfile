@@ -93,13 +93,10 @@ const Resume = props => {
   <p dir="ltr">Accountant 2010 – 2019</p>
   <p dir="ltr">Internal and Public Accounting Boston, MA</p>
   <ul>
-    <li dir="ltr">
-      <p dir="ltr">
-        Conducted audits, review and compilation engagements. Prepared
-        individual and business tax returns. Performed functions of the senior
-        accountant in the $25M revenue fitness club. Passed CPA exam.
-      </p>
-    </li>
+      <li dir="ltr">Conducted audits, review and compilation engagements.</li>
+      <li dir="ltr">Prepared individual and business tax returns. </li> 
+      <li dir="ltr">Performed functions of the senior accountant in the $25M revenue fitness club.</li> 
+      <li dir="ltr"> Passed CPA exam.</li>
   </ul>
   <p dir="ltr">Education</p>
   <p dir="ltr">

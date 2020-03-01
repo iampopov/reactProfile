@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {
-  Button, Form,
-  FormGroup, Label, Input,
-} from 'reactstrap';
+import {  Button, Form, FormGroup, Label, Input, Jumbotron } from 'reactstrap';
+import { LargeElementWrapper } from "../styles"
+
 
 function MyForm() {
   const [serverState, setServerState] = useState({
@@ -64,8 +63,10 @@ function MyForm() {
     }
 
   return (
-    <div>
-      <h1>Contact Me</h1>
+    <LargeElementWrapper>
+    <Jumbotron>
+      <h5 className="display-3">Intersted to learn more? Contact Me:</h5>
+      <hr className="my-2" />
       <Form onSubmit={handleOnSubmit}>
       <FormGroup>
         <Label htmlFor="email">Email:</Label>
@@ -92,7 +93,8 @@ function MyForm() {
           </p>
         )}
       </Form>
-    </div>
+    </Jumbotron>
+    </LargeElementWrapper>
   );
 };
 
