@@ -1,13 +1,12 @@
 import React from "react";
-// import { Card, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 const Resume = props => {
       return (
 <>
-<div>
+<Container>
   <p dir="ltr">Ivan Popov</p>
-  <p dir="ltr">Phone: 970-331-0207 | Email: ivantsar@gmail.com</p>
-  <p dir="ltr">
+    <p dir="ltr">
     LinkedIn:{" "}
     <a href="https://www.linkedin.com/in/popdev/">linkedin.com/in/popdev</a> |
     Github: <a href="https://github.com/iampopov">github.com/iampopov</a>
@@ -92,7 +91,7 @@ const Resume = props => {
   <br />
   <p dir="ltr">Experience</p>
   <p dir="ltr">Accountant 2010 – 2019</p>
-  <p dir="ltr">Various Companies Boston, MA</p>
+  <p dir="ltr">Internal and Public Accounting Boston, MA</p>
   <ul>
     <li dir="ltr">
       <p dir="ltr">
@@ -104,11 +103,11 @@ const Resume = props => {
   </ul>
   <p dir="ltr">Education</p>
   <p dir="ltr">
-    Certificate in Full Stack Web Development: Denver University, Denver, CO
+    Certificate in Full Stack Web Development: University of Denver, Denver, CO
   </p>
   <p dir="ltr">
-    A 24-week intensive program focused on gaining technical programming skills
-    in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB,
+    A 12-week full-time intensive program focused on gaining technical programming skills
+    in HTML5, CSS3, Javascript, JQuery, Bootstrap, React, Node.js, MySQL, MongoDB,
     Express, Handelbars.js &amp; ReactJS.
   </p>
   <br />
@@ -116,7 +115,7 @@ const Resume = props => {
     Master of Science in Information Technology: University of Massachusetts,
     Boston, MA
   </p>
-</div>
+</Container>
 </>
         
      );

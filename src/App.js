@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import MyForm from "./components/MyForm"
+import Resume from "./components/Resume"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <Route exact path='/' component={About} />
       <Route exact path='/projects' component={Projects} />
-      <Route exact path='/contact' component={MyForm} />
+      <Route exact path='/resume' component={Resume} />
+      <Route exact path='/resume/contact' component={MyForm} />
 
       <Footer />
     </div>

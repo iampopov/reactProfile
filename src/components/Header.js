@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link, useLocation } from "react-router-dom";
+import { HeaderWrapper} from "../styles";
 
 function Header() {
     const location = useLocation();
     return (
-      <>
+      <HeaderWrapper>
 
       <ul className="nav nav-tabs">
         <li className="nav-item">
@@ -38,7 +39,7 @@ function Header() {
         </li>
         
       </ul>
-      </>
+      </HeaderWrapper>
     );
 }
 

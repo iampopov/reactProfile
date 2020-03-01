@@ -1,9 +1,10 @@
 import React from "react";
 import { Jumbotron } from 'reactstrap';
+import { LargeElementWrapper } from "../styles"
 
 const About = props => {
     return (
-    <div>
+    <LargeElementWrapper>
     <Jumbotron>
       <h3 className="display-3">About Me</h3>
       <hr className="my-2" />
@@ -16,7 +17,7 @@ const About = props => {
       <p className="lead">I am an avid outdoorsman and I practices Leave No Trace whenever I hike, backpack or mountain bike. I am a member of the Burning Man Project as part of the Earth Guardians (the Leave No Trace volunteering team) who promotes sustainable practices and ensures the land the project occupies is in the same or a better state than how it was before.
       </p>
     </Jumbotron>
-  </div>);
+  </LargeElementWrapper>);
 }
 
 export default About;
