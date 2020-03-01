@@ -2,7 +2,7 @@
   "name": "reactprofile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iampopov.github.io/reactprofile",
+  "homepage": "https://iampopov.github.io/reactprofile/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
