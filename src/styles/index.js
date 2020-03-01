@@ -22,23 +22,30 @@ text-align: center;
     }
 `
 export const IconWrapper = styled.article`
-:hover {
-    cursor: pointer;
-    color: ${yellow}    
+i {
+    color: ${platinum};
+    :hover {
+        cursor: pointer;
+        color: ${red}; 
+    }
 }
 `
 
 export const HeaderWrapper = styled.article`
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
 background-color: ${gray};
 .nav-link {
  color: ${platinum}
 }
 `
 export const LargeElementWrapper = styled.article`
-margin: 0;
-position: absolute;
-top: 50%;
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
+margin: 5rem 0 0;
+width: 100%;
 
+`
+export const CardWrapper = styled.article`
+z-index: 1000;
 `
