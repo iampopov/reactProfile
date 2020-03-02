@@ -22,13 +22,40 @@ text-align: center;
     }
 `
 export const IconWrapper = styled.article`
-i {
-    color: ${platinum};
-    :hover {
+ color: ${platinum};
+ margin: 0 2rem; 
+ :hover {
         cursor: pointer;
         color: ${red}; 
     }
+:hover .tooltiptext {
+    visibility: visible;
 }
+
+.tooltiptext {
+    border-radius: 6px;
+    background-color: ${red};
+        bottom: 100%;
+        //left: 5%;
+        //margin-left: -40px;
+    color: ${platinum};
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: auto;
+    z-index: 1;
+  }
+  .tooltiptext::after {
+    border-width: 5px;
+    border-style: solid;
+    border-color: ${red} transparent transparent transparent;
+    content: " ";
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 100%; 
+  }
 `
 
 export const HeaderWrapper = styled.article`
